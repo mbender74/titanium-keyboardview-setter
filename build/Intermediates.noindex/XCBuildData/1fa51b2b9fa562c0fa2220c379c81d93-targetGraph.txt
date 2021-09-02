@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+keyboardviewsetter in keyboardviewsetter
+Build & Test in keyboardviewsetter, depends on:
+keyboardviewsetter in keyboardviewsetter (explicit)

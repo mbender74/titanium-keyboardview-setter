@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: Allows the keyboard input view to be overridden by a custom one.
+author: Conor Clafferty
+license: Apache Public License v2
+copyright: Copyright (c) 2012 by Conor Clafferty
+architectures: arm64 x86_64
+
+
+# these should not be edited
+name: keyboardviewsetter
+moduleid: com.cclafferty.keyboardViewSetter
+guid: bb4fe16b-4a43-48fa-a505-955050ab801f
+platform: iphone
+minsdk: 9.3.2.GA

@@ -1,0 +1,58 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "e0babc0d67ea8fac1441e50451ef4ba8a09fb951c034171470b90f08d9b4d082"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/marcbender/Downloads/TiKeyboardViewSetter-master/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/marcbender/Downloads/TiKeyboardViewSetter-master/Build/Products",
+      "derivedDataPath" : "/Users/marcbender/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/marcbender/Library/Developer/Xcode/DerivedData/keyboardviewsetter-gnrziadukznemmaphsfwggmltcvw/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/marcbender/Library/Developer/Xcode/DerivedData/keyboardviewsetter-gnrziadukznemmaphsfwggmltcvw/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/marcbender/Downloads/TiKeyboardViewSetter-master/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

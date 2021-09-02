@@ -1,0 +1,63 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "e0babc0d67ea8fac1441e50451ef4ba8d3fd11790347481c51bc8982edd94220"
+    },
+    {
+      "guid" : "e0babc0d67ea8fac1441e50451ef4ba8a09fb951c034171470b90f08d9b4d082"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/marcbender/Downloads/TiKeyboardViewSetter-master/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/marcbender/Downloads/TiKeyboardViewSetter-master/Build/Products",
+      "derivedDataPath" : "/Users/marcbender/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/marcbender/Library/Developer/Xcode/DerivedData/keyboardviewsetter-gnrziadukznemmaphsfwggmltcvw/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/marcbender/Library/Developer/Xcode/DerivedData/keyboardviewsetter-gnrziadukznemmaphsfwggmltcvw/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/marcbender/Downloads/TiKeyboardViewSetter-master/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone13,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.0",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "00008101-000815D60210001E",
+          "TARGET_DEVICE_MODEL" : "iPhone13,4",
+          "TARGET_DEVICE_OS_VERSION" : "15.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
